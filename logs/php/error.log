@@ -1,0 +1,47 @@
+[06-Jun-2024 16:38:43 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-content\plugins\desert-companion\inc\desert-import\admin\partials\desert-import-admin-display.php:76
+Stack trace:
+#0 C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-content\plugins\desert-companion\inc\desert-import\admin\class-desert-import-admin.php(99): require_once()
+#1 C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-includes\class-wp-hook.php(324): Desert_Import_Admin->theme_option_page('')
+#2 C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-admin\admin.php(259): do_action('appearance_page...')
+#5 C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\alexan...')
+#6 {main}
+  thrown in C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-content\plugins\desert-companion\inc\desert-import\admin\partials\desert-import-admin-display.php on line 76
+[06-Jun-2024 16:42:01 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\alexandre.dattilio\Local Sites\site-de-notcias\app\public\wp-includes\update.php on line 730
+[07-Jun-2024 14:26:03 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:09 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:13 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:18 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:23 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:28 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:34 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:38 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:43 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:26:59 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:03 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:08 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:13 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:19 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:23 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:30 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:33 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:43 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:50 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:27:53 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:28:03 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:28:08 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:28:19 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[07-Jun-2024 14:35:09 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 13:25:01 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[09-Jun-2024 14:08:56 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 14:14:21 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 14:27:20 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 14:27:26 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 15:10:52 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 15:10:56 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 15:11:00 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 15:11:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 15:11:10 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 15:11:15 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
+[09-Jun-2024 15:11:20 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Oauth\Components\Connect::get_connect_status(): Status getting error. Reason: User is not connected
